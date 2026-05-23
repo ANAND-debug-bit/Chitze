@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8" />
+
+  <!-- responsive layout -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<!--Chitze -- chit chat like gen z-->
+<title>Chitze</title>
+
+ 
+
+
+ <!--google fonts (speeds up loading)-->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+
+
+
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,400;0,600;0,700;0,900;1,900&family=Space+Mono&display=swap"
+    rel="stylesheet"
+  />
+
+  <link rel="stylesheet" href="style.css" />
+
+  
+
+
+</head>
+
+<body>
+
+  <div class="page">
+
+   
+    <div class="header">
+
+      <div class="logo">
+
+       <!-- Inserting the star icon the colors and the  customisation will be done through css -->
+
+        <!star icon will be used as a logo for the app and will be placed in the header-->
+
+
+    <svg class="logo-icon"
+            xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+           fill="none"
+           stroke="currentColor"
+            stroke-width="2"
+          stroke-linecap="round"
+            stroke-linejoin="round">
+
+          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+        </svg>
+
+        <h1>Chitze</h1>
+
+      </div>
+
+      <p class="tagline">
+        Decode the timeline. Text better.</p>
+    </div>
+
+
+   
+
+    <div id="state-search" class="state active">
+
+      <div class="search-wrapper">
+
+        <div class="search-box">
+
+
+  <!search icon will be placed inside the search box and styling will be done through css-->
+
+
+          <svg class="search-icon"
+              xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+              stroke="currentColor"
+            stroke-width="2"
+               stroke-linecap="round"
+            stroke-linejoin="round">
+
+            <circle cx="11" cy="11" r="8"/>
+            <path d="m21 21-4.3-4.3"/>
+
+          </svg>
+
+
+
+           <!--taking the search input-->
+
+          <input
+            id="search-input"
+            type="text"
+            placeholder="Search a word (e.g. rizz, no cap)..."
+            autocomplete="off"/>
+
+        
+          
+
+         
+          <button
+            id="clear-btn"
+            class="clear-btn hidden"
+            aria-label="Clear search">
+
+            <svg xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round">
+
+              <path d="M18 6 6 18"/>
+              <path d="m6 6 12 12"/>
+
+            </svg>
+
+          </button>
+
+        </div>
+
+        
+        <div id="dropdown" class="dropdown hidden">
+
+          <div id="dropdown-list">
+
+           
+          </div>
+
+        </div>
+
+      </div>
+      <div id="trending" class="trending">
+
+        <p class="trending-label">
+          Trending right now
+        </p>
+
+        <div class="chips">
+
+          <!--clickable genz slang buttons-->
+
+
+
+            <button class="chip" data-word="rizz">rizz</button>
+          <button class="chip" data-word="delulu">delulu</button>
+             <button class="chip" data-word="no cap">no cap</button>
+          <button class="chip" data-word="bussin">bussin</button>
+              <button class="chip" data-word="sus">sus</button>
+          <button class="chip" data-word="slay">slay</button>
+
+        </div>
+
+        </div>
+
+         </div>
+    <div id="state-definition" class="state hidden">
+ 
+      <button id="back-to-search" class="back-btn">
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <path d="m15 18-6-6 6-6"/>
+
+        </svg>
+
+        Back to search
+      </button>
+
+
+         <div class="def-card">
+
+         <div class="def-header">
+
+        <div id="def-tags" class="tags"></div>
+
+               <h2 id="def-word" class="def-word"></h2>
+
+        <div class="def-meta">
+
+            <span class="pronunciation-badge">
+
+              <svg xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                     fill="none"
+                 stroke="currentColor"
+                 stroke-width="2"
+                stroke-linecap="round"
+                 stroke-linejoin="round">
+
+                <path d="M11 4.702a.705.705 0 0 0-1.203-.498L6.413 7.587A1.4 1.4 0 0 1 5.416 8H3a1 1 0 0 0-1 1v6a1 1 0 0 0 1 1h2.416a1.4 1.4 0 0 1 .997.413l3.383 3.384A.705.705 0 0 0 11 19.298z"/>
+                <path d="M16 9a5 5 0 0 1 0 6"/>
+                <path d="M19.364 18.364a10 10 0 0 0 0-12.728"/>
+
+              </svg>
+
+              <span id="def-pronunciation"></span>
+
+            </span>
+
+            <span id="def-pos" class="pos"></span>
+
+          </div>
+
+        </div>
+
+
+        <div class="def-body">
+
+          <div class="meaning-block">
+
+            <span class="section-label">
+              Meaning
+            </span>
+
+            <p id="def-meaning"></p>
+
+          </div>
+
+
+
+
+
+          <div class="example-block">
+
+            <svg class="quote-icon"
+              xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+              fill="none"
+               stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+                stroke-linejoin="round">
+
+            <path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/>
+
+              <path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/>
+
+            </svg>
+
+            <p id="def-example" class="example-text"></p>
+
+          </div>
+
+          </div>
+
+           </div>
+
+
+      <button id="get-replies-btn" class="primary-btn">
+
+
+
+
+
+        <svg xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round">
+
+          <path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/>
+
+        </svg>
+
+        Get Reply Ideas
+
+      </button>
+
+    </div>
+
+
+
+    <div id="state-replies" class="state hidden">
+
+      <div class="replies-top-row">
+
+        <button id="back-to-def" class="back-btn">
+
+          <svg xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round">
+
+            <path d="m15 18-6-6 6-6"/>
+
+          </svg>
+
+          Definition
+
+        </button>
+
+        <span id="replies-word-badge" class="word-badge"></span>
+
+      </div>
+
+
+      <div class="replies-card">
+
+        <p class="section-label"
+          style="text-align:center; margin-bottom: 1rem;">
+
+          Pick your mood
+
+        </p>
+
+
+ <!-- MOODS--(HAPPY , SIRCASM , AGGRESSION , CHILL AND SOFTIE) -->
+
+        <div class="mood-grid">
+
+              <button class="mood-btn active" data-mood="happy">
+              <span class="mood-emoji">😄</span>
+            <span class="mood-label">Happy</span>
+          </button>
+
+           <button class="mood-btn" data-mood="sarcastic">
+            <span class="mood-emoji">😏</span>
+            <span class="mood-label">Sarcastic</span>
+          </button>
+
+    <button class="mood-btn" data-mood="aggressive">
+            <span class="mood-emoji">😤</span>
+            <span class="mood-label">Aggressive</span>
+          </button>
+
+            <button class="mood-btn" data-mood="chill">
+            <span class="mood-emoji">😎</span>
+            <span class="mood-label">Chill</span>
+          </button>
+
+    <button class="mood-btn" data-mood="soft">
+            <span class="mood-emoji">🥺</span>
+            <span class="mood-label">Soft</span>
+          </button>
+
+    <button class="mood-btn" data-mood="funny">
+            <span class="mood-emoji">🤣</span>
+            <span class="mood-label">Funny</span>
+          </button>
+
+        </div>
+        <div id="replies-list" class="replies-list">
+
+        </div>
+
+          </div>
+
+         </div>
+
+           </div>
+
+  <div id="toast" class="toast hidden">
+Copied to clipboard!
+</div>
+  <script src="script.js"></script>
+
+</body>
+</html>
+ 
