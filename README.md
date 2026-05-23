@@ -14,6 +14,8 @@
 
 <ol>
   <li>Open the ChitZe ChitChat website in your browser</li>
+  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7752c6ed-ea95-45d8-8208-9a42c62a48e1" />
+
   <li>Type any gen Z slang, word, or full message into the input box<br>(Example: "that fit is bussin no cap")</li>
   <li>Then press enter and see the magic</li>
   <li>The website will instantly show you what the slang means in plain simple language</li>
