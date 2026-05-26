@@ -1,7 +1,7 @@
 </head>
 <body>
 
-<h1>💬 PROJECT TITLE: ChitZe ChitChat like Gen Z</h1>
+<h1>💬 PROJECT TITLE: ChitZe "ChitChat like Gen Z"</h1>
 
 <hr>
 
@@ -52,17 +52,16 @@
 
 <ul>
   <li>Real-time gen Z slang decoder</li>
-  <li>Clap-back reply generator</li>
   <li>Works with single words, phrases, or full messages</li>
   <li>Simple and responsive UI</li>
   <li>Dark themed design</li>
-  <li>Easy input system</li>
-  <li>Instant result — no loading, no delays</li>
-  <li>Beginner-friendly code structure</li>
 </ul>
 
 <hr>
 
+<h3> AI use </h3>
+<p>I used AI for all the details of all genz slangs like list of genz slangs with their meanings and differnt mood reply ideas and also used it to understand a basic ui layout like a genz theme website.</p>
+<hr>
 <h2>TECH STACK</h2>
 
 <br>
@@ -72,6 +71,9 @@
   <li>CSS</li>
   <li>JS</li>
 </ul>
+
+
+
 
 </body>
 </html>
