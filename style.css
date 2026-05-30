@@ -12,7 +12,11 @@
  --bg-hover: rgba(255, 255, 255, 0.05);
 
 
+<<<<<<< HEAD
  --primary: #8b3dff;
+=======
+ --primARY: #8b3dff;
+>>>>>>> e778a40 (Initial commit)
  --primary-glow: rgba(139, 61, 255, 0.25);
  --primary-light: rgba(139, 61, 255, 0.15);
  
@@ -41,6 +45,7 @@
 
 
           body {
+<<<<<<< HEAD
                       font-family: var(--font);
 
                        background: var(--bg);
@@ -51,6 +56,17 @@
                       justify-content: center;
                        padding: 3rem 1rem 4rem;
 
+=======
+    font-family: var(--font);
+
+    background: var(--bg);
+    color: var(--text);
+    min-height:100dvh;
+
+    display: flex;
+    justify-content: center;
+    padding: 3rem 1rem 4rem;
+>>>>>>> e778a40 (Initial commit)
     background-image: radial-gradient(at 0% 0%, rgba(139,61,255,0.06) 0px , transparent 50%), radial-gradient(at 100% 0%, rgba(139,61,255,0.06) 0px , transparent 50%);
 
      background-attachment: fixed;
@@ -73,7 +89,11 @@
 
   .logo{ display:flex; align-items: center; gap:0.5rem; color: var(--primary); margin-bottom:0.4rem;}
 
+<<<<<<< HEAD
   .logo-icon{width:2rem; height:2rem; flex-shrink:0;}
+=======
+  .logoicon {width:2rem; height:2rem; flex-shrink:0;}
+>>>>>>> e778a40 (Initial commit)
 
 
      .logo h1{ font-size:1.875rem; font-weight:900; font-style:italic; text-transform: uppercase; letter-spacing: -0.04em;}
@@ -81,6 +101,7 @@
     
     .tagline{ font-family: var(--mono); font-size :0.8rem; color: var(--text-muted);}
 
+<<<<<<< HEAD
     .state{ width:100%; display:flex; flex-direction:column; gap: 1 rem; animation: fadeup 0.25s ease ;}
 
     .state.hidden{ display:none;}
@@ -470,6 +491,8 @@ gap: 0.5rem; margin-bottom: 1.25rem;
 
 
 .hidden { display: none !important; }
+=======
+>>>>>>> e778a40 (Initial commit)
 
 
     
