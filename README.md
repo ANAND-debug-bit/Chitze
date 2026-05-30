@@ -1,7 +1,7 @@
 </head>
 <body>
 
-<h1>💬 PROJECT TITLE: ChitZe "ChitChat like Gen Z"</h1>
+<h1>PROJECT TITLE: ChitZe "ChitChat like Gen Z"</h1>
 
 <hr>
 
@@ -11,26 +11,18 @@
 
 <h2>How To Use The Website</h2>
 
-<ol>
-  <li>Open the ChitZe ChitChat website in your browser</li>
-  <img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/7752c6ed-ea95-45d8-8208-9a42c62a48e1" />
+<p>
+  It's very easy just open the website and write the Gen Z slang or word which you want to search and get the meaning or you can simply click on any slang in the <b> Trending right now </b> section
+  <img width="926" height="575" alt="image" src="https://github.com/user-attachments/assets/7752c6ed-ea95-45d8-8208-9a42c62a48e1" />
+  <br>
+after clicking on any slang you will get the meaning and an  example statement of the slang and also there is an option of <b> Get reply ideas</b>
+  <br>
+<img width="926" height="575" alt="image" src="https://github.com/user-attachments/assets/b0b9048b-c71f-4fd1-8b29-b24550dfb33e" />
+If you want to get reply ideas click on it select your mood and boom you will get top 3 reply ideas click on any reply message and it will get copied to your clipboard
 
-  <li>Type any gen Z slang, word, or full message into the input box<br>(Example: "that fit is bussin no cap")</li>
-  <li>Then press enter and see the magic</li>
-  <li>The website will instantly show you what the slang means in plain simple language</li>
-  <li>Then click on <b> Get reply ideas </b> u will get a few fire clap-back replies that you can copy and send right back</li>
-</ol>
+<img width="926" height="575" alt="image" src="https://github.com/user-attachments/assets/9b128a42-78d5-4cae-a217-acff789d6616" />
 
-<hr>
-
-<h3>Example</h3>
-
-<ul>
-  <li>Input → "bro that's so mid fr"</li>
-  <li>Meaning → That thing is pretty average or underwhelming, honestly</li>
-  <li>Clap-Back → "okay but did you understand the assignment tho 💀"</li>
-</ul>
-
+</p>
 <hr>
 
 <h3>Why I made this website ?</h3>
@@ -38,38 +30,38 @@
 <hr>
 
 <p>
-  So basically I use gen Z slangs a lot while texting my friends and they almost never understand what I'm saying.
-  Every single time I'd say something like "bro that was lowkey bussin fr fr" and they'd reply with "what does that even mean??".
-  It got funny after a while but then I thought — why not just build something that fixes this.
-  <br><br>
-  ChitZe ChitChat is basically a slang decoder that not only tells you what a word or phrase means
-  but also gives you clap-back replies so you don't get left on read.
-  The whole idea was to close the communication gap between me and my friends and also help anyone
-  who wants to keep up with gen Z internet language without feeling completely lost.
+  I made this website because I use Genz slangs a lot while texting or talking to my friends and they often get confused about what I'm saying and also what to reply , so this website solves both problems.
 </p>
 
 <h2>Some cool features</h2>
 
 <ul>
-  <li>Real-time gen Z slang decoder</li>
+  <li>Search any genz slang </li>
   <li>Works with single words, phrases, or full messages</li>
-  <li>Simple and responsive UI</li>
+  <li>Trending right now section also available</li>
   <li>Dark themed design</li>
+  <li>Get reply ideas on every slang </li>
+  <li>Pick a mood of your choice</li>
+  <li>Click on any reply idea and it will get copied to your clipboard</li>
 </ul>
 
 <hr>
 
 <h3> AI use </h3>
-<p>I used AI for all the details of all genz slangs like list of genz slangs with their meanings and differnt mood reply ideas and also used it to understand a basic ui layout like a genz theme website.</p>
+<p>I used AI for all the details of all genz slangs like list of genz slangs with their meanings and different mood reply ideas and also used it to understand a basic ui layout like a genz theme website.</p>
 <hr>
 <h2>TECH STACK</h2>
 
 <br>
 
-<ul>
-  <li>HTML</li>
-  <li>CSS</li>
-  <li>JS</li>
+
+ <img width="80" height="28" alt="image" src="https://github.com/user-attachments/assets/249b14d7-9f15-47f4-ba10-f5849e89bef8" />
+
+  <img width="49" height="28" alt="image" src="https://github.com/user-attachments/assets/03ae4f39-4206-4633-8bae-f2b3487167d5" />
+</li>
+  <img width="127" height="28" alt="image" src="https://github.com/user-attachments/assets/e29db953-058d-49c7-8401-8ea0718ce4b8" />
+
+</li>
 </ul>
 
 
